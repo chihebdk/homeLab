@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/.aws":{"guestpath":"/home/vagrant/.aws","hostpath":"C:/Users/dkhilc/.aws","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Lab/vagrant/cloudtools","disabled":false,"__vagrantfile":true}}}
