@@ -41,7 +41,6 @@ SCRIPT
 Vagrant.configure("2") do |config|
   config.vm.box = "dellemc/ubuntu1604"
   config.vm.network "private_network", type: "dhcp"
-  config.vm.synced_folder "c:/Users/dkhilc/.aws", "/home/vagrant/.aws"
   config.vm.provision "file", source:"kops-init.sh", destination: "$HOME/kops-init-raw.sh"
   config.vm.provision "shell", inline: $script  
 end
